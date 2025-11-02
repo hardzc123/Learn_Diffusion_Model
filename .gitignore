@@ -1,0 +1,16 @@
+# Python virtual environments
+.venv/
+
+# uv cache directory
+.uv_cache/
+
+# Phase-specific generated assets (re-downloadable or reproducible)
+phases/*/models/
+phases/*/outputs/
+
+# Hugging Face caches (if created elsewhere)
+~/.cache/huggingface/
+
+# Miscellaneous
+__pycache__/
+*.pyc
